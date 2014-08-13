@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Circular Slides - impress.js</title>
+<style>
+body {
+  background-image: url(//wmh.github.io/circular-slides-generator/static/img/noise.png);
+}
+.step {
+    position: relative;
+    padding: 40px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+}
+.slide {
+  display: block;
+  width: 800px;
+  height: 600px;
+  padding: 120px 60px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  color: rgb(102, 102, 102);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.credits, .credits h2 {
+  padding-top: 0;
+}
+</style>
+</head>
+<body>
+<div id="impress">
+<div class="step slide" data-x="100" data-y="200" data-rotate="0" data-scale="1.038625"><q>My Slides</q></div>
+<div class="step slide" data-x="1287" data-y="200" data-rotate="0" data-scale="1"><q>Slide 1</q></div>
+<div class="step slide" data-x="1009" data-y="962" data-rotate="40" data-scale="1"><q>Slide 2</q></div>
+<div class="step slide" data-x="306" data-y="1368" data-rotate="80" data-scale="1"><q>Slide 3</q></div>
+<div class="step slide" data-x="-493" data-y="1227" data-rotate="120" data-scale="1"><q>Slide 4</q></div>
+<div class="step slide" data-x="-1015" data-y="605" data-rotate="160" data-scale="1"><q>Slide 5</q></div>
+<div class="step slide" data-x="-1015" data-y="-205" data-rotate="200" data-scale="1"><q>Slide 6</q></div>
+<div class="step slide" data-x="-493" data-y="-827" data-rotate="240" data-scale="1"><q>Slide 7</q></div>
+<div class="step slide" data-x="306" data-y="-968" data-rotate="280" data-scale="1"><q>Slide 8</q></div>
+<div class="step slide credits" data-x="1009" data-y="-562" data-rotate="320" data-scale="1">
+    <h2>Credits</h2>
+    <ul>
+      <li>
+        <a href="http://bartaz.github.io/impress.js" target="_blank">impress.js</a> - Bartek Szopka
+      </li>
+      <li>
+        <a href="http://wmh.github.io/circular-slides-generator" target="_blank">Circular Slides Generator</a> - Hunter Wu
+      </li>
+    </ul>
+  </div>
+<div class="step" data-x="500" data-y="500" data-scale="6"></div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.js"></script>
+</body>
+</html>
